@@ -34,6 +34,6 @@ describe('<Home /> Component', () => {
         expect(h.queryByTestId('breed-item-poodle')).toBeInTheDocument();
         expect(h.queryByTestId('breed-item-pug')).toBeInTheDocument();
         expect(h.queryByTestId('breed-item-redbone')).not.toBeInTheDocument();
-        // expect(h).toMatchSnapshot();
+        expect(h).toMatchSnapshot();
     })
 });

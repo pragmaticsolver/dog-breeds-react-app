@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Component When type the name of the breed in the search box, suggesions should get only with breeds with start words of entered string 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-bj7xu4-MuiGrid-root"
+        >
+          <div
+            aria-owns="dogs-breeds-autocomplete-listbox"
+            class="MuiAutocomplete-root Mui-focused MuiAutocomplete-hasPopupIcon css-1j3kmyv-MuiAutocomplete-root"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+              data-testid="autocomplete-input"
+            >
+              <label
+                class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="true"
+                for="dogs-breeds-autocomplete"
+                id="dogs-breeds-autocomplete-label"
+              >
+                Breeds
+              </label>
+              <div
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="dogs-breeds-autocomplete-listbox"
+                  aria-expanded="true"
+                  aria-invalid="false"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+                  id="dogs-breeds-autocomplete"
+                  role="combobox"
+                  spellcheck="false"
+                  type="text"
+                  value="p"
+                />
+                <div
+                  class="MuiAutocomplete-endAdornment css-1q60rmi-MuiAutocomplete-endAdornment"
+                >
+                  <button
+                    aria-label="Close"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator MuiAutocomplete-popupIndicatorOpen css-113ntv0-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator"
+                    tabindex="-1"
+                    title="Close"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-1in441m"
+                  >
+                    <span>
+                      Breeds
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiAutocomplete-popper css-1s5lphu-MuiPopper-root-MuiAutocomplete-popper"
+      data-popper-escaped=""
+      data-popper-placement="bottom"
+      data-popper-reference-hidden=""
+      role="presentation"
+      style="position: absolute; top: 0px; left: 0px; width: 0px; margin: 0px; transform: translate(0px, 0px);"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAutocomplete-paper css-9e5uuu-MuiPaper-root-MuiAutocomplete-paper"
+      >
+        <ul
+          aria-labelledby="dogs-breeds-autocomplete-label"
+          class="MuiAutocomplete-listbox css-b7k0tb-MuiAutocomplete-listbox"
+          id="dogs-breeds-autocomplete-listbox"
+          role="listbox"
+        >
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="MuiAutocomplete-option MuiBox-root css-16r7kf5"
+            data-option-index="0"
+            data-testid="breed-item-pointer"
+            id="dogs-breeds-autocomplete-option-0"
+            role="option"
+            tabindex="-1"
+          >
+            <img
+              alt="pointer"
+              loading="lazy"
+              src="https://images.dog.ceo/breeds/pointer-germanlonghair/hans4.jpg"
+              width="48"
+            />
+            pointer
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="MuiAutocomplete-option MuiBox-root css-16r7kf5"
+            data-option-index="1"
+            data-testid="breed-item-pomeranian"
+            id="dogs-breeds-autocomplete-option-1"
+            role="option"
+            tabindex="-1"
+          >
+            <img
+              alt="pomeranian"
+              loading="lazy"
+              src="https://images.dog.ceo/breeds/pomeranian/n02112018_7953.jpg"
+              width="48"
+            />
+            pomeranian
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="MuiAutocomplete-option MuiBox-root css-16r7kf5"
+            data-option-index="2"
+            data-testid="breed-item-poodle"
+            id="dogs-breeds-autocomplete-option-2"
+            role="option"
+            tabindex="-1"
+          >
+            <img
+              alt="poodle"
+              loading="lazy"
+              src="https://images.dog.ceo/breeds/poodle-standard/n02113799_336.jpg"
+              width="48"
+            />
+            poodle
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="MuiAutocomplete-option MuiBox-root css-16r7kf5"
+            data-option-index="3"
+            data-testid="breed-item-pug"
+            id="dogs-breeds-autocomplete-option-3"
+            role="option"
+            tabindex="-1"
+          >
+            <img
+              alt="pug"
+              loading="lazy"
+              src="https://images.dog.ceo/breeds/puggle/IMG_104450.jpg"
+              width="48"
+            />
+            pug
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-bj7xu4-MuiGrid-root"
+      >
+        <div
+          aria-owns="dogs-breeds-autocomplete-listbox"
+          class="MuiAutocomplete-root Mui-focused MuiAutocomplete-hasPopupIcon css-1j3kmyv-MuiAutocomplete-root"
+        >
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+            data-testid="autocomplete-input"
+          >
+            <label
+              class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink="true"
+              for="dogs-breeds-autocomplete"
+              id="dogs-breeds-autocomplete-label"
+            >
+              Breeds
+            </label>
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root"
+            >
+              <input
+                aria-autocomplete="list"
+                aria-controls="dogs-breeds-autocomplete-listbox"
+                aria-expanded="true"
+                aria-invalid="false"
+                autocapitalize="none"
+                autocomplete="off"
+                class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+                id="dogs-breeds-autocomplete"
+                role="combobox"
+                spellcheck="false"
+                type="text"
+                value="p"
+              />
+              <div
+                class="MuiAutocomplete-endAdornment css-1q60rmi-MuiAutocomplete-endAdornment"
+              >
+                <button
+                  aria-label="Close"
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator MuiAutocomplete-popupIndicatorOpen css-113ntv0-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator"
+                  tabindex="-1"
+                  title="Close"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ArrowDropDownIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-1in441m"
+                >
+                  <span>
+                    Breeds
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
