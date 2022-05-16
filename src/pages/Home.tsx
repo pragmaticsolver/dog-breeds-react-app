@@ -51,6 +51,7 @@ const Home = () => {
               component="li"
               sx={{ "& > img": { mr: 2, flexShrink: 0 } }}
               {...props}
+              data-testid={`breed-item-${option.breed}`}
             >
               <img
                 loading="lazy"
@@ -61,7 +62,7 @@ const Home = () => {
               {option.breed}
             </Box>
           )}
-          renderInput={(params) => <TextField {...params} label="Breeds" />}
+          renderInput={(params) => <TextField {...params} label="Breeds" data-testid="autocomplete-input" />}
         />
       </Grid>
     </Grid>
