@@ -33,7 +33,7 @@ const Home = () => {
     value: IDogBreed | null
   ) => void = (_event, value) => {
     if (!value) return;
-    navigate(`/breed/${value?.breed}`);
+    navigate(`/dog-breeds-react-app/breed/${value?.breed}`);
   };
 
   return (

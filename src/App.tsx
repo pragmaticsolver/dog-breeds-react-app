@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 import Layout from "./features/ui/Layout";
@@ -16,10 +16,10 @@ function App() {
       <DogsContextProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route path="/" element={<Home />} />
-              <Route path="/breed/:breadName" element={<BreedDogs />} />
-              <Route path="/favorite-images" element={<FavoriteDogs />} />
+            <Route path="dog-breeds-react-app" element={<Layout />}>
+              <Route path="" element={<Home />} />
+              <Route path="breed/:breadName" element={<BreedDogs />} />
+              <Route path="favorite-images" element={<FavoriteDogs />} />
             </Route>
           </Routes>
         </BrowserRouter>

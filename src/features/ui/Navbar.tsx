@@ -16,7 +16,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const navigateToHome = () => {
-    navigate("/");
+    navigate("/dog-breeds-react-app");
   };
 
   return (
@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <HomeIcon />
         </IconButton>
-        <StyledLink to="/favorite-images">Favorite</StyledLink>
+        <StyledLink to="/dog-breeds-react-app/favorite-images">Favorite</StyledLink>
       </Toolbar>
     </AppBar>
   );
